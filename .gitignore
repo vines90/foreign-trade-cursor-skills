@@ -1,0 +1,21 @@
+.env
+.env.local
+.env.*.local
+node_modules/
+.DS_Store
+
+# SMTP 凭证 (auto-smtp-email skill)
+.cursor/skills/auto-smtp-email/references/credentials.env
+**/__pycache__/
+*.pyc
+
+# ---- workspace-init: required entries ----
+.cursor/state/
+.cursor/cache/
+output/raw/
+output/logs/
+__pycache__/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/

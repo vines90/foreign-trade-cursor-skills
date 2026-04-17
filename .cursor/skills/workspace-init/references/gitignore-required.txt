@@ -1,0 +1,29 @@
+# 本文件列出 workspace-init 必须保证存在于项目 .gitignore 的条目
+# 一行一条；空行和 # 开头的行被忽略
+# init.py 会逐行比对，缺失的追加到 .gitignore 末尾，不会重排已有内容
+
+# ---- 环境变量 / 凭证 ----
+.env
+.env.local
+.env.*.local
+.cursor/skills/auto-smtp-email/references/credentials.env
+
+# ---- 共享状态（含飞书 token） ----
+.cursor/state/
+
+# ---- 缓存 ----
+.cursor/cache/
+
+# ---- 大体积原始数据 / PII ----
+output/raw/
+output/logs/
+
+# ---- 常见构建产物 ----
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/

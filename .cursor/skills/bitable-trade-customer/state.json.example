@@ -1,0 +1,38 @@
+{
+  "_comment": "首次执行 setup 后，状态写到 .cursor/state/bitable.json（不在 skill 目录），两个 skill 共享读取。本 example 仅说明字段格式。",
+  "app_token": "ABCdefGhijklMNopQRstuVWxyZ",
+  "bitable_url": "https://feishu.cn/base/ABCdefGhijklMNopQRstuVWxyZ",
+  "created_at": "2026-04-17T22:00:00+08:00",
+  "tables": {
+    "customers": {
+      "table_id": "tblXXXXXXXXX",
+      "name": "客户主表",
+      "fields": {
+        "公司名称": "fldXXXX1",
+        "公司官网": "fldXXXX2",
+        "客户状态": "fldXXXX3",
+        "价值评级": "fldXXXX4"
+      }
+    },
+    "contacts": {
+      "table_id": "tblYYYYYYYYY",
+      "name": "联系人表",
+      "fields": {
+        "姓名": "fldYYYY1",
+        "邮箱": "fldYYYY2",
+        "所属公司": "fldYYYY3"
+      }
+    },
+    "devlog": {
+      "table_id": "tblZZZZZZZZZ",
+      "name": "开发日志",
+      "fields": {
+        "所属客户": "fldZZZZ1",
+        "联系人": "fldZZZZ2",
+        "互动类型": "fldZZZZ3",
+        "方向": "fldZZZZ4",
+        "互动日期": "fldZZZZ5"
+      }
+    }
+  }
+}

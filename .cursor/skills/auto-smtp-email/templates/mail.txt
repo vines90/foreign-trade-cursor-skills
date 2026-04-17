@@ -1,0 +1,5 @@
+Hello {{company_name}},
+
+This is a quick introduction from {{sender_name}}. We would love to explore whether there is a fit for cooperation.
+
+If you are the right contact for this category, I would be happy to share more details.
